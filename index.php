@@ -13,14 +13,14 @@ $f3->set('DEBUG', 3);
 
 //Define a default root (home page)
 $f3->route('GET /', function () {
-    echo "Home Page";
-//    $view = new Template();
-//    echo $view->render('views/home.html');
+//    echo "Home Page";
+    $view = new Template();
+    echo $view->render('views/home.html');
 });
 
 //Define a default root (home page)
 $f3->route('GET /order', function () {
-    echo "Order Page";
+//    echo "Order Page";
 //    $view = new Template();
 //    echo $view->render('views/home.html');
 });
