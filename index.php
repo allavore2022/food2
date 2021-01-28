@@ -21,8 +21,8 @@ $f3->route('GET /', function () {
 //Define a default root (home page)
 $f3->route('GET /order', function () {
 //    echo "Order Page";
-//    $view = new Template();
-//    echo $view->render('views/home.html');
+    $view = new Template();
+    echo $view->render('views/form1.html');
 });
 
 //Define a default root (home page)
